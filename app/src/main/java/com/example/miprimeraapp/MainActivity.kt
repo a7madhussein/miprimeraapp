@@ -66,6 +66,7 @@ fun ProfileScreen(modifier: Modifier = Modifier) {
     ) {
 
         item {
+            Spacer(modifier = Modifier.height(60.dp))
             Image(
                 painter = painterResource(id = R.drawable.mofoto),
                 contentDescription = "Foto de Ahmad",
